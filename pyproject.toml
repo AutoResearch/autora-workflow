@@ -10,24 +10,24 @@ readme = "docs/index.md"
 license = {file = "LICENSE"}
 
 dependencies = [
-    "autora-core>=4.0.0",
+    "autora-core>=4.0.0,<=4.1.0",
     "typer[all]",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "autora-core[dev]>=4.0.0",
+    "autora-core[dev]>=4.0.0,<=4.1.0",
     "autora-workflow[docs]",
     "autora-workflow[test]",
 ]
 docs = [
-    "autora-core[docs]>=4.0.0",
+    "autora-core[docs]>=4.0.0,<=4.1.0",
     "scikit-learn",
     "matplotlib",
     "pandas",
 ]
 test = [
-    "autora-core[test]>=4.0.0",
+    "autora-core[test]>=4.0.0,<=4.1.0",
     "autora-workflow[serializers]",
     "hypothesis",
     "scikit-learn",
