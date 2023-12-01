@@ -2,6 +2,8 @@
 
 Workflow management tools for AutoRA. 
 
+This package is deprecated and has been merged into AutoRA Core ([GitHub](https://github.com/AutoResearch/autora-core) | [PyPI](https://pypi.org/project/autora-core/)).
+
 ## User Guide
 
 You will need:
